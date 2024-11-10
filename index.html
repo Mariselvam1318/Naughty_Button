@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naughty Button</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container text-center">
+        <h1 class="mb-4">Naughty Button</h1>
+        <form>
+            <div class="mb-3">
+                <input type="text" class="form-control" onclick="resetbtn()" placeholder="Enter username" id="username">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" onclick="resetbtn()" placeholder="Enter email" id="email">
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" onclick="resetbtn()" placeholder="Enter password" id="pwd">
+            </div>
+            <button type="button" class="btn btn-primary" onmouseover="naughty()" onclick="submitForm()" id="btn">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
